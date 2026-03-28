@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="head-box">
+        <header>
+            <h1 class="name">SAIBABA KOLA</h1>
+            <h2 class="designation"> Junior DevOps Engineer | Cloud Engineer </h2>
+            <p class="quote"> “ Building the future in the cloud — learning fast, deploying smarter, and curious growing with every challenge. ” ☁️🚀 </p>
+        </header>
+    </div>
+
+    <!-- About -->
+    <section>
+        <h3 class="section-title">About Me</h3>
+        <p class="section-content">
+            Passionate fresher with knowledge in cloud, DevOps tools, and automation. 
+            Eager to learn and build real-world scalable applications.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <h3 class="section-title">Skills</h3>
+        <p class="section-content">
+            AWS, Azure, Docker, Kubernetes, Terraform, Git, CI/CD
+        </p>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <h3 class="section-title">Projects</h3>
+
+        <!-- Project 1 -->
+        <div class="project-box" onclick="toggleProject(this)">
+            <h4> Automated Cloud VM Deployment and Portfolio Hosting Using Terraform </h4>
+            <p> Uses Terraform to automate cloud VM setup, configure a web server, and host a portfolio website with fast, consistent, and scalable deployment. </p>
+
+            <div class="project-details">
+                <p><b>Tools:</b>  MS Azure (Virtual Networks, Virtual Machine), Terraform, Git </p>
+                <p><b>Responsibilities:</b> Deployed cloud Virtual Machines using Terraform (IaC). <br>
+                    • Automated infrastructure setup for consistent deployments. <br>
+                    • Configured network rules and installed web server. <br>
+                    • Hosted and updated a portfolio website on the VM. <br>
+                    • Tested, troubleshot, and documented the deployment process. </p>
+                <p><b>GitHub:</b> <a href="https://github.com/Saibaba-22/Linux-Terraform-Portfolio_Web.git"> View Repo</a></p>
+                <img src="Images/Project1image1.png" alt="Project1 Image1">
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-box" onclick="toggleProject(this)">
+            <h4> Website Hosting Using Micro Services </h4>
+            <p> A microservices-based website hosting project where different functionalities (frontend, backend, database) are deployed as independent services, <br> 
+                improving scalability, flexibility, and easier maintenance. </p>
+
+            <div class="project-details">
+                <p><b>Tools:</b> Jenkins, GitHub, Docker</p>
+                <p><b>Responsibilities:</b> Pipeline creation, automation</p>
+                <p><b>GitHub:</b> <a href="https://github.com/Saibaba-22/Website-Hosting-Using-Micro-Services-With-DB.git"> View Repo </a></p>
+                <img src="Images/Project2image1.png" alt="Project2 Image1">
+                <img src="Images/Project2image2.png" alt="Project2 Image2">
+                
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Certifications -->
+    <section>
+        <h3 class="section-title">Certifications</h3>
+
+        <div class="cert-box" onclick="toggleCert(this)">
+            •	Participated and lead a team in “Cloud Shield DevSecOps Hackathon 2026” organized by V Cube Software Solutions
+            <span class="view-link">View Certificate</span>
+
+            <div class="cert-image">
+                <img src="Images/DevSecOps-Hackathon.jpg" alt="Certificate">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Education -->
+    <section>
+        <h3 class="section-title">Education</h3>
+        <p class="section-content">
+            B.Tech in Electronics and Communication Engineering | 7.0 <br>
+            CMR College of Engineering and Technology
+        </p>
+    </section>
+
+    <!-- Contact -->
+    <section>
+        <h3 class="section-title">Contact Me</h3>
+        <p class="section-content">
+            Email: k.saibaba2022@gmail.com <br>
+            Github: https://github.com/Saibaba-22
+        </p>
+    </section>
+
+    <script>
+        function toggleProject(box) {
+            box.classList.toggle("active");
+        }
+
+        function toggleCert(box) {
+            box.classList.toggle("active");
+        }
+    </script>
+
+</body>
+</html>

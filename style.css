@@ -1,0 +1,107 @@
+/* General */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Header */
+.head-box{
+    display: flex;
+    height: 30vh;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    text-align: center;
+}
+.name {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700 (bold);
+    color: #222;
+    left: 30vh;
+}
+
+.designation {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500 (bold);
+    color: #555555;
+}
+
+.quote {
+    font-family: poppins;
+    font-size: 18x;
+    color: #777;
+    font-style: italic;
+}
+
+/* Section Titles */
+.section-title {
+    font-family: Montserrat;
+    font-size: 22px;
+    color: #2c3e50;
+    margin-top: 60px;
+}
+
+/* Section Content */
+.section-content {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 18x;
+    color: #444444;
+}
+
+/* Project Box */
+.project-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.project-box:hover {
+    background-color: #f9f9f9;
+}
+
+.project-details {
+    display: none;
+    margin-top: 10px;
+}
+
+.project-box.active .project-details {
+    display: block;
+}
+
+.project-box img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+
+/* Certification */
+.cert-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.view-link {
+    color: blue;
+    margin-left: 10px;
+}
+
+.cert-image {
+    display: none;
+    margin-top: 10px;
+}
+
+.cert-box.active .cert-image {
+    display: block;
+}
+
+.cert-image img {
+    width: 300px;
+}
