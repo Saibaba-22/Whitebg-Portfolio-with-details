@@ -51,6 +51,22 @@ body {
     color: #444444;
 }
 
+/* ===== SKILLS ===== */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-box {
+    background: #e3f2fd;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px; /* SAME SIZE */
+    color: black;
+}
+
+
 /* Project Box */
 .project-box {
     border: 1px solid #ccc;
