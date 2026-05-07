@@ -59,13 +59,13 @@ body {
 }
 
 .skill-box {
-    background: #e3f2fd;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-size: 18px; /* SAME SIZE */
-    color: black;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #f4f4f4;
 }
-
 
 /* Project Box */
 .project-box {
